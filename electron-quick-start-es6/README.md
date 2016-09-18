@@ -7,6 +7,7 @@
 - `npm install`
 - `npm run dev` in a terminal
 - Open it in VSCode
+- Install [Debugger for Chrome](https://marketplace.visualstudio.com/items/msjsdiag.debugger-for-chrome) if you haven't
 - (Windows) Go to `.vscode/launch.json` and modify `runtimeExecutable`
 - Run either "Debug Main Process" or "Debug Renderer Process" in Debug Viewlet
 
