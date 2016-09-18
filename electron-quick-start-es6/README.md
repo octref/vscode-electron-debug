@@ -1,10 +1,9 @@
-# electron-quick-start
+# electron-quick-start-es6
 
 **Modified to ues ES6 & Babel & Webpack and debug in VSCode**
 
 ## Instructions
 
-- Clone the repo
 - `npm install`
 - `npm run dev` in a terminal
 - Open it in VSCode

@@ -4,7 +4,6 @@
 
 ## Instructions
 
-- Clone the repo
 - `npm install`
 - Open it in VSCode
 - (Windows) Go to `.vscode/launch.json` and modify `runtimeExecutable`
