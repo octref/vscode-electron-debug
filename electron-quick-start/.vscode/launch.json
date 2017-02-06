@@ -7,17 +7,20 @@
       "request": "launch",
       "cwd": "${workspaceRoot}",
       "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
-      // Use the following for Windows
-      // "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd",
-      "program": "${workspaceRoot}/main.js"
+      "windows": {
+        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
+      },
+      "program": "${workspaceRoot}/main.js",
+      "protocol": "legacy"
     },
     {
       "name": "Debug Renderer Process",
       "type": "chrome",
       "request": "launch",
       "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
-      // Use the following for Windows
-      // "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd",
+      "windows": {
+        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
+      },
       "runtimeArgs": [
         "${workspaceRoot}/main.js",
         "--remote-debugging-port=9222"
