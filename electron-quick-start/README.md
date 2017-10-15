@@ -1,11 +1,11 @@
 # electron-quick-start
 
-**Modified to debug in VSCode**
+**Modified to debug in VS Code**
 
 ## Instructions
 
 - `npm install`
-- Open it in VSCode
+- Open it in VS Code
 - Install [Debugger for Chrome](https://marketplace.visualstudio.com/items/msjsdiag.debugger-for-chrome) if you haven't
 - (Windows) Go to `.vscode/launch.json` and modify `runtimeExecutable`
 - Run either "Debug Main Process" or "Debug Renderer Process" in Debug Viewlet
