@@ -4,7 +4,7 @@ For details, see http://blog.matsu.io/1
 
 Click into each folder for instructions.
 
-**Inspector Protocol**: If you want to use the new inspector protocol to debug Electron apps, see https://github.com/Microsoft/vscode-recipes/tree/master/Electron.
+Alternative guide: https://github.com/Microsoft/vscode-recipes/tree/master/Electron.
 
 ## License
 
