@@ -4,15 +4,14 @@
 
 ## Instructions
 
-- `npm install`
-- Open it in VS Code
+- `yarn` or `npm install`
+- Open the project in VS Code
 - Install [Debugger for Chrome](https://marketplace.visualstudio.com/items/msjsdiag.debugger-for-chrome) if you haven't
-- (Windows) Go to `.vscode/launch.json` and modify `runtimeExecutable`
 - Run either "Debug Main Process" or "Debug Renderer Process" in Debug Viewlet
 
-## Commit that has the modification
+## Changelog
 
-[22d85fe](https://github.com/octref/vscode-electron-debug/commit/22d85fe0d736b0842a7d3ad66b50c4097a8a4005)
+- 05/30/18: Update to Electron 2.0
 
 ## License
 
