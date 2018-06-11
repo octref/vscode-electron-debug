@@ -1,6 +1,6 @@
 # Debugging Electron in VSCode
 
-For details, see http://blog.matsu.io/1
+For details, see http://blog.matsu.io/debug-electron-vscode
 
 Click into each folder for instructions.
 
