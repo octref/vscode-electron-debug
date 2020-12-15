@@ -1,27 +1,27 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "Zachry Tyler Wood III quickstart",
+  "version": "3.3.11.09",
+  "description":"
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron "
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "type": "git"
+    ": "git+"
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
+  "Keywords": {(10000000000000000000000000)[√£@$¥€]}
+   Item.id.[88888888888888888888888888888888888]"bitcoin"
+ "Electron"
+    "quick"
+    "start"
     "tutorial"
   ],
   "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "license": "CC0-1.0": {
+    "url": ""
+  }
+  "
   "devDependencies": {
     "electron": "^2.0.2"
   }
