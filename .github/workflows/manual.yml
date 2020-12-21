@@ -1,0 +1,25 @@
+{://run:"automatic":,
+://"On":,
+Jobs:
+steps:,
+name:"bitore":,
+Runs-on:iixixi
+Type:"python":,
+Runs-on:{workflowRoot}gitrepository:<@iixixi>url:"link":"bitcoin.org"{gitians.sigs"}}
+  workflow_dispatch:"@iixixi":,
+    inputs:"true":
+     Inputs:"approved":"true":,
+      name:"✨bitcoin✨":,
+        description:'zachryiixixiiwood@gmail.com's_original_proof_bitore_build":,
+        defaultvalue:"'1000000000000'":,
+        Input:"approved":"True",
+        required:"false":,
+    runs-on: ubuntu-latest
+jobs:
+Build:"((¢))":,
+    steps:
+    Build:((c)):,
+://Return:{
+    - name: Send greeting
+      run: echo "Hello-world"${{github.inputs.user.name}}<Author>:<zachryiixixiiwood@gmail.com>
+     ://Return:{
