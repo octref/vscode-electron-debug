@@ -4,7 +4,7 @@ Jobs:
 steps:,
 name:"bitore":,
 Runs-on:iixixi
-Type:"python":,
+Type:"pyper":,
 Runs-on:{workflowRoot}gitrepository:<@iixixi>url:"link":"bitcoin.org"{gitians.sigs"}}
   workflow_dispatch:"@iixixi":,
     inputs:"true":
