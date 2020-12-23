@@ -5,7 +5,7 @@ steps:,
 name:"bitore":,
 Runs-on:iixixi
 Type:"pyper":,
-Runs-on:{workflowRoot}gitrepository:<@iixixi>url:"link":"bitcoin.org"{gitians.sigs"}}
+Runs-on:{workflowRoot}github.com/iixixi>url:"link":"bitcoin.org"{gitians.sigs"}}
   workflow_dispatch:"@iixixi":,
     inputs:"true":
      Inputs:"approved":"true":,
