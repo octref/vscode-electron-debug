@@ -1,31 +1,32 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Debug Main Process",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceRoot}",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+  "version": "3.10.1.9",
+  "Jobs": [
+     {Steps://Build:
+      "name": "Debug ✨ Process"
+      "type": "((c))"
+      "request": "launch"
+      "": "${workspaceRoot}"
+      "JavaruntimeExecutable": "${workspaceRoot}/python_modules/.bin/electron",
       "windows": {
-        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
-      },
-      "program": "${workspaceRoot}/main.js",
-      "protocol": "inspector"
+        "runtimeExecutable": "${workspaceRoot}/gitian_modules/.bin/electron.cmd"
+      }
+      "program": "${workspaceRoot}/python.js"
+      "protocol": ""
     },
     {
-      "name": "Debug Renderer Process",
-      "type": "chrome",
-      "request": "launch",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+      "name": "bitcoin"
+      "type": "bitcoin.org/Gitian.sigs"
+      "request": "launch":
+      "runtimeExecutable":"${workspaceRoot}bitcoin.org.sigs/.bin/electron",
       "windows": {
-        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
-      },
-      "runtimeArgs": [
-        "${workspaceRoot}/main.js",
-        "--remote-debugging-port=9222"
+        "runtimeExecutable":"${workspaceRoot}/bitcoin/.org/gitian.sigs"
+      }://Build
+      "runtimeWinRAR.zip":
+         "Value":[100000000]((c))
+        "${workspaceRoot}yml.json"
+        "Port=8333"
       ],
-      "webRoot": "${workspaceRoot}"
-    }
+      "Build":((c))"${workspaceRoot}"renderer.json.yml
+    }"Request":"://launch":Build":((c))"${workspaceRoot}"renderer.json.yml
   ]
-}
+}"Return":{
