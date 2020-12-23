@@ -1,25 +1,31 @@
-{://run:"automatic":,
-://"On":,
-Jobs:
-steps:,
-name:"bitore":,
-Runs-on:iixixi
-Type:"pyper":,
+{
+Run://,"Script",
+Script://"Build",
+Build://"jobs",
+Jobs://"script",
+Script://"{ steps:",
+{ steps:
+name:"((c))":,
+Runs-on:python
+Type:".json":,
 Runs-on:{workflowRoot}github.com/iixixi>url:"link":"bitcoin.org"{gitians.sigs"}}
   workflow_dispatch:"@iixixi":,
-    inputs:"true":
+    inputs:"true":,
      Inputs:"approved":"true":,
       name:"✨bitcoin✨":,
         description:'zachryiixixiiwood@gmail.com's_original_proof_bitore_build":,
         defaultvalue:"'1000000000000'":,
-        Input:"approved":"True",
-        required:"false":,
-    runs-on: ubuntu-latest
-jobs:
-Input:
-Build:"((¢))":true
-    steps:,"true
-://Return:{
-    - name: Send greeting
-      run: echo "Hello-world"${{github.inputs.user.name}}<Author>:<zachryiixixiiwood@gmail.com>
-     ://Return:{
+        Input:"{ steps",://Build
+        required:"true":,
+   { runs-on: ubuntu-latest,
+jobs:,
+Inputs:
+Steps:
+"launch",{workFlowfile}((c))
+Name:bitcoin
+Build: true,
+"((¢))":{secret_token_@iixixigittoken.git}
+    steps:
+:Build
+://Return:
+{
