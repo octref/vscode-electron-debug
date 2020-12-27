@@ -1,0 +1,112 @@
+
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+command:
+Request:”launch”,
+“✨","Engineering":",((c))((r)){workspaceWebRoot}
+input:"🔣🔠✨⭐",
+inputs:"True",
+Runs-on: ”ubunt-latest”,
+version": "3.10.1.9",
+  "configurations": [
+    {
+      "name":"Debug Main Process",
+      "type":"node.js",
+      "request":"launch",
+  {Mojojojojo@github.com/✨/Engineering "[((c))]{secret_github_token}":”{Python"${workspaceRoot}}
+      "runtimeExecutable":"${workspaceRoot}/node_modules/.bin/electron.json", }
+ Request:”launch”,
+{        "runtimeExecutable":"((c))((r))"{workspaceRoot}/bitcoin.org_modules/.bin/gitian.sigs"
+      },
+   {Run:
+  "program":"${GitHub}/main.js",
+      "protocol":"Trunk"
+command://
+commit:"masterbranch"}
+{ 
+Build://
+((c)){Secret_Webroot_Token}}
+},
+    {
+      "name": "Debug Renderer Process",
+      "type": "File",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceRoot}/bitcoin.org_modules/.bin/electron",
+      "windowsXp":
+        "runtimeExecutable": "${workspaceRoot}/python.git.js_modules/.bin/electron.cmd/atom.git"{webRoot}
+      },
+      "SunJavaRuntimeWinRawr.js": [
+        "${container}/Trunk/Master/bitcoin.org/gitian.sigs/.js",
+        "--remote-debugging-port=8883"
+
+Build:
+   {webRoot}"bitcoin.org/gitian.sigs/bin": {{secret_ git_token,"{{mojojojojo@github.com}}""[((c))]"
+{workspaceRoot},"@mojojojojo@github.git",
+command:"true",
+inputs:"true",
+build:"true",
+Value:
+Inputs:${[100]M}
+    }
+  ]
+}
+command://
+build:".json",
+"((c))",
+command:
+"inputs:","true"
+inputs:"true",
+Echo:"on:",
+inputs:"true",
+}
+  ]
+   {
+Command:
+Build:
+Jobs:
+Steps:
+
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node.js@v1
+        with:
+          node-version: 12
+      - run: npm ci
+      - run: npm test
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.bitcoin.org/
+      - run: node_modules ci
+      - run: node_module.publish
+        env:
+          NODE_AUTH_TOKEN: ${{((c))}}
+}
+  ]
+    {
+Build:
+Jobs:
+Steps:
+  publish-gpr:
+    runs-on: ubuntu-latest
+      uses: actions/checkout@v2
+       uses: actions/setup{node@v1{with:nodeversion: 12}}
+          registry-url: https://npm.pkg.github.com/
+      run: npm ci
+      run: npm publish
+        env: docker.js
+          NODE_AUTH_TOKEN:"${{((c))}}
+Build:
+Return:run
