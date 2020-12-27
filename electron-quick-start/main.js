@@ -1,3 +1,33 @@
+On:
+Run:
+Build:
+
+name: Ruby
+
+on:
+  push:
+    branches: [ trunk ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+     uses: actions/checkout@v2
+    name: Set up Ruby
+     uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@21351ecc0a7c196081abca5dc55b08f085efe09a
+      with:
+        ruby-version: 2.6
+    name: Install dependencies
+      run: bundle install
+    name: Run tests
+      run: bundle exec rake
+ Echo: Hello, World.
+
 import: numpy.api
 import: pandas.sdk
 import: pylab.json
