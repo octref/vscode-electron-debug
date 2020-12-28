@@ -1,32 +1,34 @@
 {
-  "version": "3.10.1.9",
-  "Jobs": [
-     {Steps://Build:
-      "name": "Debug ✨ Process"
-      "type": "((c))"
-      "request": "launch"
-      "": "${workspaceRoot}"
-      "JavaruntimeExecutable": "${workspaceRoot}/python_modules/.bin/electron",
-      "windows": {
-        "runtimeExecutable": "${workspaceRoot}/gitian_modules/.bin/electron.cmd"
+  version: {"3.10.1.9"}
+Jobs:
+Build:
+ name: CI
+      type: (c)[100]{M}.json.yml
+      request:
+launch:
+Pull: ${workspaceRoot} bitcore.org/adk
+      JavaruntimeExecutable: ${workspaceRoot}/python_modules/bin/electron,
+      windows: {
+        runtimeExecutable: ${workspaceRoot}/gitian_modules/bin/electron.cmd
       }
-      "program": "${workspaceRoot}/python.js"
-      "protocol": ""
+      program: ${workspaceRoot}/python.js
+      protocol: 
     },
     {
-      "name": "bitcoin"
-      "type": "bitcoin.org/Gitian.sigs"
-      "request": "launch":
-      "runtimeExecutable":"${workspaceRoot}bitcoin.org.sigs/.bin/electron",
-      "windows": {
-        "runtimeExecutable":"${workspaceRoot}/bitcoin/.org/gitian.sigs"
+      name: bitcoin
+      type: Gitian.sigs
+      request: launch
+      runtimeExecutable: ${workspaceRoot}bitcoin.org.sigs/.bin/electron
+      windows: {
+        runtimeExecutable: ${workspaceRoot}/bitcoin/.org/gitian.sigs
       }://Build
-      "runtimeWinRAR.zip":
-         "Value":[100000000]((c))
-        "${workspaceRoot}yml.json"
-        "Port=8333"
-      ],
-      "Build":((c))"${workspaceRoot}"renderer.json.yml
-    }"Request":"://launch":Build":((c))"${workspaceRoot}"renderer.json.yml
-  ]
+      runtime: WinRAR.zip
+         Value: [100000000]((c))
+        ${workspaceRoot}yml.json
+        Port: 8333
+      Build": ((c))${workspaceRoot}renderer.json.yml
+    }"Request: 
+launch: 
+Build: ((c))${workspaceRoot}renderer.json.yml
+  Bundler: python.js
 }"Return":{
