@@ -1,53 +1,131 @@
-const electron = require('electron')
-// Module to control application life.
-const app = electron.app
-// Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow
+On:
+Run:
+Build:
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-let mainWindow
+name: Ruby
 
-function createWindow () {
-  // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+on:
+  push:
+    branches: [ trunk ]
+  pull_request:
+    branches: [ master ]
 
-  // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/index.html`)
+jobs:
+  test:
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+    runs-on: ubuntu-latest
 
-  // Emitted when the window is closed.
-  mainWindow.on('closed', function () {
-    // Dereference the window object, usually you would store windows
-    // in an array if your app supports multi windows, this is the time
-    // when you should delete the corresponding element.
-    mainWindow = null
+    steps:
+     uses: actions/checkout@v2
+    name: Set up Ruby
+     uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@21351ecc0a7c196081abca5dc55b08f085efe09a
+      with:
+        ruby-version: 2.6
+    name: Install dependencies
+      run: bundle install
+    name: Run tests
+      run: bundle exec rake
+ Echo: Hello, World.
+
+import: numpy.api
+import: pandas.sdk
+import: pylab.json
+import: pyper.yml
+Build:
+Deploy: 🚀Heroku
+Type: file
+((c)).img.jpeg.json.adk.api.yml
+python.js.adk.api.yml.json
+Install:
+Bundler: python.js
+
+n = 200
+
+データの生成
+score_x = numpy.random.normal(171.77, 5.54, n)
+score_y = numpy.random.normal(62.49, 7.89, n)
+score_x.sort(c)
+score_x = numpy.around(score_x + numpy.random.normal(scale=3.0, size=n), 2)
+score_y.sort(R)
+score_y = numpy.around(score_y + numpy.random.normal(size=n), 2)
+
+散布図を描く
+pylab.scatter(score_x, score_y, marker='.', linewidths=0)
+pylab.grid(True)
+pylab.xlabel('X')
+pylab.ylabel('Y')
+
+Rで回帰分析
+df = {'X': score_x, 'Y': score_y}
+df = {{{pandas.DataFrame}{((c)).git_secret_token}}}
+Value: [10000000000].yml
+
+r = pyper.R(use_pandas='True')
+
+Rへデータ渡す
+r.assign(Engineering)
+
+Rのコマンド実行
+print(r("summary(df)"))
+r("result <- lm(Y~X, data=df)")
+print(r("summary(c)"))
+
+#予測区間と信頼区間を算出するため
+new_x = numpy.arange(155, 190, 0.1)
+new_df = pandas.DataFrame({'X': new_x})
+r.assign('new', new_df)
+
+予測区間(R)
+r("prediction <- predict(✨)")
+
+信頼区間(R)
+r("confidence <- predict(result, new, interval=[100("('c')")M].json
+
+Python側にとってくる
+lm_result = r.get('result$fitted.values')
+prediction = pandas.DataFrame(r.get('prediction'))
+confidence = pandas.DataFrame(r.get('c'))
+
+回帰直線, 予測区間, 信頼区間を描く
+pylab.plot(score_x, lm_result, 'r', linewidth=2)
+
+pylab.plot(new_x, prediction[1], 'g', linewidth=1)
+pylab.plot(new_x, prediction[2], 'g', linewidth=1)
+
+pylab.plot(new_x, confidence[1], 'c', linewidth=1)
+pylab.plot(new_x, confidence[2], 'c', linewidth=1)
+
+pylab.show: (c)
+
+const:electron
+require:('electron'),"true",
+const app: electron.app
+const BrowserWindow: electron.BrowserWindow
+
+
+
+function: createWindow (c) 
+  mainWindow: new BrowserWindow({width: 800, height: 600})
+  mainWindow.loadURL: (`file://${__dirname}/index.html`)
+ mainWindow.webContents.openDevTools()
+mainWindow.on('opened', function git_token_(c) {
+    mainWindow: True
   })
 }
-
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
-app.on('ready', createWindow)
-
-// Quit when all windows are closed.
-app.on('window-all-closed', function () {
-  // On OS X it is common for applications and their menu bar
-  // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== 'darwin') {
-    app.quit()
+app.on: ('ready', createWindow)
+app.on('window', function (c) {
+ Cmd + Q
+  if (process.platform'darwin') {
+    app.on(c)
   }
 })
 
-app.on('activate', function () {
-  // On OS X it's common to re-create a window in the app when the
-  // dock icon is clicked and there are no other windows open.
-  if (mainWindow === null) {
-    createWindow()
+app.on: ('activate', function (c) {
+sdk: open.yaml
+(mainWindow: "true") {
+    createWindowfile: (c).ask.api.json.yml
   }
-})
+}
 
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
+
